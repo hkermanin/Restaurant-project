@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+  width: 100%;
+
+  padding-inline: 1rem;
+
+  @sm {
+    padding-inline: 3rem;
+  }
+}
+
+@utility animation {
+  animation: spin 40s linear infinite;
+}
+
+body {
+  font-family: "Baloo Bhaijaan 2", sans-serif;
+}
