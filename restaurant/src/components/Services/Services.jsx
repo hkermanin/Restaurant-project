@@ -10,8 +10,8 @@ export default function Services() {
 
 
   return (
-    <div className="p-10 lg:p-20 flex gap-16 flex-col items-center justify-center">
-        <div><h1 className="text-5xl">خدمات ما</h1></div>
+    <div className="p-10 lg:p-20 mt-5 flex gap-16 flex-col items-center justify-center">
+        <div><h1 className="text-4xl">خدمات ما</h1></div>
 
         <div className="grid gap-5 lg:gap-10 place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {services.map((service)=>{
