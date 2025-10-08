@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero"
 import Navbar from "./components/Navbar/Navbar"
 import Services from "./components/Services/Services"
 import Download from "./components/Download/Download"
+import SliderApp from "./components/Slider/SliderApp"
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Services/>
       <Banner/>
       <Download/>
+      <SliderApp/>
     </div>
   )
 }
