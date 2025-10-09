@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar"
 import Services from "./components/Services/Services"
 import Download from "./components/Download/Download"
 import SliderApp from "./components/Slider/SliderApp"
+import Footer from "./components/Footer/Footer"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Banner/>
       <Download/>
       <SliderApp/>
+      <Footer/>
     </div>
   )
 }
