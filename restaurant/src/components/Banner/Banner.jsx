@@ -6,7 +6,7 @@ import { GiFoodTruck } from "react-icons/gi";
 export default function Banner() {
   return (
     <div className="p-5 mt-10 lg:p-15 place-items-center grid grid-cols-1 lg:grid-cols-2">
-      <div className="flex justify-center items-center overflow-hidden transform -translate-y-10 w-4/4 sm:w-3/4">
+      <div data-aos="fade-right" className="flex justify-center items-center overflow-hidden transform -translate-y-10 w-4/4 sm:w-3/4">
         <img
         className="p-5 animate-spin [animation-duration:30s]"
         src="https://opium.feeja.ir/storage/products/fqJWXYMH67VxogRJv82onythGMGyp8hOufsiMjEx.png"
@@ -14,7 +14,7 @@ export default function Banner() {
       />
       </div>
 
-      <div className="text-center flex flex-col gap-6 p-5 lg:p-10">
+      <div data-aos="fade-left" className="text-center flex flex-col gap-6 p-5 lg:p-10">
         <h1 className="text-4xl font-bold text-yellow-600">چرا رستوران کرمانی</h1>
 
         <p dir="rtl" className=" text-justify text-gray-500 text-md">

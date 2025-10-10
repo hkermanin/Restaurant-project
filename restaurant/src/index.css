@@ -22,4 +22,6 @@
 
 body {
   font-family: "Baloo Bhaijaan 2", sans-serif;
+  overflow-x: hidden;
+
 }
